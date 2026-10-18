@@ -1,3 +1,23 @@
+
+-- EE 470 Database Assignment - Part 1
+-- Student: Liliana Esparza
+-- Fall 2026
+--
+-- This SQL script contains my database tables
+-- for the IoT database assignment.
+--
+-- Book: Stores book names and IDs.
+-- Price: Stores the prices for each book.
+-- sensor_register: Stores registered sensor
+-- names, manufacturers, and locations.
+-- sensor_data: Stores temperature and humidity
+-- readings with their timestamps.
+-- sensor_combined: Combines sensor registration
+-- information with sensor readings.
+--
+-- The foreign key prevents unregistered sensors
+-- from inserting data into sensor_data.
+
 -- phpMyAdmin SQL Dump
 -- version 5.2.2
 -- https://www.phpmyadmin.net/
